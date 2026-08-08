@@ -2,7 +2,7 @@
 
 Canonical URL: https://github.com/414960701/harness-distiller
 
-Social image: `assets/marketing/social-preview.png` (1280×640)
+Social images: `assets/marketing/social-preview.png` (lossless, 1280×640) and `assets/marketing/social-preview.jpg` (GitHub upload, under 1 MB)
 
 ## Positioning
 
