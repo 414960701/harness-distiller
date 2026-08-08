@@ -1,0 +1,4 @@
+interface:
+  display_name: "Harness Distiller"
+  short_description: "蒸馏并生成可分级升级的完整 Agent Harness 工程"
+  default_prompt: "使用 $harness-distiller 蒸馏并实现一个能用级的 Codex-like Agent Harness。"
