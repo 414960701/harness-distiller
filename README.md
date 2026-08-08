@@ -1,6 +1,6 @@
-# SuperA Harness
+# Harness Distiller
 
-SuperA Harness 是一套面向 AI Agent Harness 的设计与实现知识库，也可以作为 Codex Skill 使用。它把公开产品行为、官方文档和开源代码证据，整理成可执行、可验证、可升级的架构与工程方案。
+Harness Distiller 是一套面向 AI Agent Harness 的设计与实现知识库，也可以作为 Codex Skill 使用。它把公开产品行为、官方文档和开源代码证据，整理成可执行、可验证、可升级的架构与工程方案。
 
 项目关注的不只是 Agent Loop，还覆盖协议、状态、上下文、工具、权限、沙箱、持久化、恢复、界面和验收，目标是帮助你从零构建或原位升级完整的 Agent Harness。
 
@@ -29,7 +29,7 @@ scripts/                         Blueprint 生成与一致性检查工具
 ## 作为 Codex Skill 安装
 
 ```bash
-git clone https://github.com/414960701/superaharness.git \
+git clone https://github.com/414960701/harness-distiller.git \
   ~/.codex/skills/harness-distiller
 ```
 
