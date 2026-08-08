@@ -8,14 +8,16 @@ Social images: `assets/marketing/social-preview.png` (lossless, 1280×640) and `
 
 **One line**
 
-Turn public evidence about AI coding agents into executable, testable harness blueprints.
+One prompt to distill and rebuild Codex, Claude Code, QoderWork, and other AI agent harnesses.
 
 **Why it matters**
 
-The agent loop is the easy part. Production harnesses also need protocols, state, cancellation, context, permissions, real sandbox enforcement, persistence, recovery, migrations, UI reconstruction, and acceptance tests.
+Pick a product recipe and target repository. Harness Distiller drives Codex to generate or upgrade the complete harness—protocol, runtime, tools, permissions, execution, persistence, UI, and tests—then validates it against the selected product behavior and maturity level.
 
 **Proof points**
 
+- One-prompt generation or in-place upgrade of complete harness repositories
+- Flagship Codex, Claude Code, and QoderWork replication recipes
 - 35 implementation-ready knowledge modules
 - 9 full product dossiers with 13 documents each
 - 4 maturity levels: runnable, usable, productive, polished
@@ -27,7 +29,7 @@ The agent loop is the easy part. Production harnesses also need protocols, state
 Title:
 
 ```text
-Show HN: Harness Distiller – turn agent product evidence into implementation blueprints
+Show HN: Harness Distiller – rebuild Codex or Claude Code-style agents in one prompt
 ```
 
 URL:
@@ -39,9 +41,9 @@ https://github.com/414960701/harness-distiller
 Suggested first comment:
 
 ```text
-Hi HN — I built Harness Distiller after repeatedly seeing agent projects stop at model → tool call → loop, while the difficult production work remained implicit.
+Hi HN — I built Harness Distiller so you can name an agent product recipe and have Codex generate or upgrade the complete target harness in one prompt.
 
-The repository separates public evidence, observable behavior, protocols, and inference, then turns them into product contracts, capability graphs, implementation guidance, and executable acceptance criteria. It currently contains 35 shared modules and nine full dossiers covering Codex, Claude Code, QoderWork, Aider, OpenCode, OpenHands, AgentScope, LangGraph, and Deep Agents.
+The flagship recipes rebuild Codex-style TUI, Claude Code-style CLI, and QoderWork-style desktop harnesses. The repository separates public evidence, observable behavior, protocols, and inference, then turns them into product contracts, capability graphs, implementation guidance, generated code, and executable acceptance criteria.
 
 It is also usable as a Codex Skill and includes dependency-free scripts for generating and validating a versioned harness blueprint.
 
@@ -53,17 +55,19 @@ The docs are currently strongest in Chinese; the README is bilingual, and Englis
 Title:
 
 ```text
-[开源] Harness Distiller：把 Codex / Claude Code 等 Agent 产品蒸馏成可实现架构
+[开源] 一条指令蒸馏并复刻 Codex / Claude Code / QoderWork
 ```
 
 Body:
 
 ```text
-最近整理并开源了一个项目：Harness Distiller。
+开源了一个可以“一条指令复刻 Agent 产品”的 Codex Skill：Harness Distiller。
+
+选 Codex、Claude Code 或 QoderWork 配方，指定 runnable / usable / productive / polished 等级和目标仓库，它会自动加载产品 dossier、展开能力依赖，生成或原位升级完整 Harness 工程并运行验收。
 
 很多 Agent 教程做到“模型 → 工具调用 → 循环”就结束了，但真正能长期运行的 Harness 还要处理：版本化协议、取消、上下文压缩、审批、真实沙箱、持久化、崩溃恢复、UI 状态重建和迁移。
 
-这个项目把公开产品行为、官方文档、协议和开源代码证据，整理成可执行、可验证、可升级的架构蓝图。不会把对闭源产品的猜测写成源码事实。
+它不是只生成一份架构文档，而是驱动 Codex 按配方落协议、Runtime、工具、权限、执行、持久化、界面和测试。不会复制专有提示词和品牌素材，也不会把对闭源产品的猜测写成源码事实。
 
 当前包含：
 
@@ -89,11 +93,11 @@ Body:
 Post 1:
 
 ```text
-Open-sourced Harness Distiller 🚀
+One prompt to rebuild Codex, Claude Code, or QoderWork-style agent harnesses 🚀
 
-It turns public evidence about AI coding agents into executable, testable harness blueprints.
+Pick a recipe and target repository. Harness Distiller drives Codex to generate or upgrade the complete harness and validate it against evidence-backed product behavior.
 
-The agent loop is the easy part. Production needs protocols, state, cancellation, sandboxing, recovery, migrations, and verifiable acceptance tests.
+Codex Skill · open source
 
 https://github.com/414960701/harness-distiller
 ```
@@ -134,7 +138,7 @@ Choose one relevant subreddit only after reviewing its current self-promotion an
 Title:
 
 ```text
-I open-sourced a knowledge base for designing production-grade AI agent harnesses
+I open-sourced a one-prompt tool to rebuild Codex and Claude Code-style agent harnesses
 ```
 
 Body:
@@ -142,7 +146,7 @@ Body:
 ```text
 I kept seeing agent implementations stop at the loop, while the harder system concerns were scattered across source code, docs, and product behavior.
 
-I built Harness Distiller to organize those concerns into an evidence-backed capability model and implementation blueprint. It covers protocols, state, context, tools, permissions, sandboxing, persistence, recovery, UI reconstruction, migrations, and acceptance tests.
+I built Harness Distiller so you can pick a product recipe and have Codex generate or upgrade the complete target repository in one prompt. The flagship recipes rebuild Codex-style TUI, Claude Code-style CLI, and QoderWork-style desktop harnesses, covering protocols, state, context, tools, permissions, sandboxing, persistence, recovery, UI reconstruction, migrations, and tests.
 
 The first release includes 35 shared implementation modules and nine full product dossiers: Codex, Claude Code, QoderWork, Aider, OpenCode, OpenHands, AgentScope, LangGraph, and Deep Agents. It can also be installed as a Codex Skill.
 
@@ -156,7 +160,7 @@ I am looking for technical feedback rather than drive-by promotion: what product
 Title:
 
 ```text
-做一个能用的 AI Agent，Agent Loop 可能只占 10%
+一条指令复刻 Codex / Claude Code：我开源了一个 Harness 蒸馏器
 ```
 
 Opening:
@@ -166,7 +170,7 @@ Opening:
 
 真正困难的部分从工具第一次执行之后才开始：怎么取消？结果迟到了怎么办？上下文压缩会不会拆散 tool call 和 result？用户点了允许，是否真的存在 OS 级边界？进程崩溃后如何恢复，又怎样保证不会重复一次不可逆操作？
 
-我把这些问题整理成了一个开源项目 Harness Distiller：从公开证据出发，把 AI 编码 Agent 蒸馏成可以实现和验收的架构蓝图。
+我把这些问题整理成了一个开源项目 Harness Distiller：选 Codex、Claude Code 或 QoderWork 配方，指定目标仓库和成熟度，一条指令生成或升级完整 Harness 工程并执行验收。
 ```
 
 Suggested structure:

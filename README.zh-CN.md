@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="assets/marketing/social-preview.png" alt="Harness Distiller：把分散的 Agent 证据蒸馏为可执行架构蓝图" width="100%">
+  <img src="assets/marketing/social-preview.png" alt="Harness Distiller：一条指令蒸馏并复刻 Codex、Claude Code、QoderWork" width="100%">
 </p>
 
 <h1 align="center">Harness Distiller</h1>
 
 <p align="center">
-  <strong>把 AI 编码 Agent 的公开证据，蒸馏成可执行、可测试的 Harness 蓝图。</strong>
+  <strong>一条指令蒸馏并复刻 Codex、Claude Code、QoderWork 等 Agent Harness。</strong>
 </p>
 
 <p align="center">
@@ -15,11 +15,27 @@
   <a href="references/architecture.md">共享架构</a>
 </p>
 
-大多数 Agent 教程停在“模型 → 工具调用 → 循环”。一个可投入使用的 Harness 还需要版本化协议、取消、审批、真实沙箱、上下文管理、持久化、崩溃恢复、UI 状态重建、迁移和验收测试。
+说出目标产品、成熟度和产品表面，Harness Distiller 就会加载对应产品 dossier、展开能力依赖，并驱动 Codex 在目标仓库中生成或原位升级匹配的协议、Runtime、工具、权限、持久化、界面和验收测试。
 
-Harness Distiller 是一套面向完整 AI Agent Harness 的开放知识库，也可以作为 Codex Skill 使用。它把可观察行为、官方文档、协议和开源代码证据，整理成可实现、可验证、可升级的架构方案，同时明确区分事实与闭源产品推断。
+你可以一条指令复刻 Codex 风格 TUI、Claude Code 风格 CLI，或 QoderWork 风格桌面工作台。同一流程也支持 Aider、OpenCode、OpenHands、AgentScope、LangGraph 和 Deep Agents 配方。
 
-> 如果它帮你省下了一周的架构考古时间，欢迎点一个 Star，让更多 Agent 开发者发现它。
+> 选产品、指仓库：一键蒸馏、一键复刻、自动验收，并沿同一架构持续升级。
+
+## 一条指令，复刻一个产品配方
+
+```text
+用 harness-distiller 在这个仓库一键复刻一个 usable 级的 Codex 风格 headless + TUI Agent。
+```
+
+```text
+用 harness-distiller 在这里复刻一个 productive 级的 Claude Code 风格 headless + CLI Agent。
+```
+
+```text
+用 harness-distiller 构建一个 polished 级的 QoderWork 风格 headless + Desktop Agent 工作台。
+```
+
+Harness Distiller 不复制专有提示词、品牌素材或无法验证的内部实现；它复刻的是有公开证据支撑的产品行为与架构，并生成原创、可测试的工程实现。
 
 ## 当前内容
 
@@ -34,6 +50,8 @@ Harness Distiller 是一套面向完整 AI Agent Harness 的开放知识库，�
 
 ## 能做什么
 
+- 一条指令生成完整 Agent Harness 工程，或在原仓库中跨级升级
+- 以 Codex、Claude Code、QoderWork 为旗舰配方，并支持另外六套实现级配方
 - 按 `runnable`、`usable`、`productive`、`polished` 四级规划能力演进
 - 生成一套可连续升级的 Harness blueprint，而不是四套互不兼容的工程
 - 复用 Codex、Claude Code、QoderWork、Aider、OpenCode、OpenHands、AgentScope、LangGraph、Deep Agents 等产品配方
@@ -67,7 +85,7 @@ git clone https://github.com/414960701/harness-distiller.git \
 安装后，可以在 Codex 中这样使用：
 
 ```text
-用 harness-distiller 帮我做一个 usable 级的 Codex-like TUI Agent。
+用 harness-distiller 在这个仓库一键复刻一个 usable 级的 Codex 风格 headless + TUI Agent。
 ```
 
 也可以直接阅读 [SKILL.md](SKILL.md)，按其中的路由加载所需参考资料。

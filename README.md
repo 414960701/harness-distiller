@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="assets/marketing/social-preview.png" alt="Harness Distiller turns scattered agent evidence into an executable architecture blueprint" width="100%">
+  <img src="assets/marketing/social-preview.png" alt="Harness Distiller distills and rebuilds Codex, Claude Code, and QoderWork-style agent harnesses" width="100%">
 </p>
 
 <h1 align="center">Harness Distiller</h1>
 
 <p align="center">
-  <strong>Turn public evidence about AI coding agents into an executable, testable harness blueprint.</strong>
+  <strong>One prompt to distill and rebuild Codex, Claude Code, QoderWork, and other AI agent harnesses.</strong>
 </p>
 
 <p align="center">
@@ -21,11 +21,27 @@
   <a href="https://github.com/414960701/harness-distiller/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/414960701/harness-distiller?style=flat-square"></a>
 </p>
 
-Most agent tutorials stop at model → tool call → loop. Production harnesses do not. They also need versioned protocols, cancellation, approvals, real sandbox enforcement, context management, durable state, crash recovery, UI reconstruction, migrations, and acceptance tests.
+Name the product recipe, maturity level, and target surface. Harness Distiller loads the evidence-backed product dossier, expands the capability graph, and drives Codex to generate or upgrade the target repository with the matching protocol, runtime, tools, permissions, persistence, UI, and acceptance tests.
 
-Harness Distiller is an open knowledge base and Codex Skill for designing that complete system. It distills observable behavior, official documentation, protocols, and open-source code into implementation-ready architecture—without pretending that guesses about closed-source products are facts.
+Start with a Codex-like TUI, a Claude Code-like CLI, or a QoderWork-like desktop workbench. The same one-prompt workflow also supports Aider, OpenCode, OpenHands, AgentScope, LangGraph, and Deep Agents recipes.
 
-> If this saves you a week of architecture archaeology, consider starring the repo. It helps more agent builders find it.
+> Pick a recipe. Point it at a repository. Distill, rebuild, validate, and keep upgrading one compatible harness.
+
+## One prompt, one product recipe
+
+```text
+Use harness-distiller to rebuild a usable Codex-style headless + TUI agent in this repository.
+```
+
+```text
+Use harness-distiller to replicate a productive Claude Code-style headless + CLI agent here.
+```
+
+```text
+Use harness-distiller to build a polished QoderWork-style headless + desktop agent workbench.
+```
+
+Harness Distiller does not copy proprietary prompts, branding, or unverifiable internals. It reproduces the publicly evidenced behavior and product architecture as an original, testable implementation.
 
 ## At a glance
 
@@ -40,6 +56,8 @@ Harness Distiller is an open knowledge base and Codex Skill for designing that c
 
 ## What you get
 
+- One-prompt generation and in-place upgrades for complete agent harness repositories
+- Codex, Claude Code, and QoderWork flagship recipes, plus six additional implementation-grade recipes
 - A single capability model that grows through `runnable` → `usable` → `productive` → `polished`
 - Product recipes based on public evidence, with facts and inference kept separate
 - Contracts for commands, events, tools, state, permissions, execution, and UI projection
@@ -77,13 +95,13 @@ git clone https://github.com/414960701/harness-distiller.git \
 Then ask Codex:
 
 ```text
-Use harness-distiller to design a usable Codex-like TUI agent.
+Use harness-distiller to rebuild a usable Codex-style headless + TUI agent in this repository.
 ```
 
 Or in Chinese:
 
 ```text
-用 harness-distiller 帮我做一个 usable 级的 Codex-like TUI Agent。
+用 harness-distiller 在这个仓库一键复刻一个 usable 级的 Codex 风格 headless + TUI Agent。
 ```
 
 ### Generate a harness blueprint
